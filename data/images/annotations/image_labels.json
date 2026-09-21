@@ -1,0 +1,52 @@
+{
+  "ann_architecture.png": {
+    "label": "Архитектура ANN",
+    "type": "схема",
+    "objects": ["входной слой", "скрытый слой", "выходной слой", "нейроны", "связи"]
+  },
+  "cnn_architecture.png": {
+    "label": "Архитектура CNN",
+    "type": "схема",
+    "objects": ["свёрточный слой", "pooling", "полносвязный слой", "карты признаков"]
+  },
+  "rnn_architecture.png": {
+    "label": "Архитектура RNN",
+    "type": "схема",
+    "objects": ["входной слой", "скрытый слой", "рекуррентные связи", "выходной слой"]
+  },
+  "transformer_architecture.png": {
+    "label": "Архитектура Transformer",
+    "type": "схема",
+    "objects": ["encoder", "decoder", "attention", "feed-forward"]
+  },
+  "gan_architecture.png": {
+    "label": "Архитектура GAN",
+    "type": "схема",
+    "objects": ["генератор", "дискриминатор", "шум", "реальные данные"]
+  },
+  "svm_hyperplane.png": {
+    "label": "SVM: разделяющая гиперплоскость",
+    "type": "визуализация",
+    "objects": ["гиперплоскость", "опорные векторы", "классы"]
+  },
+  "random_forest.png": {
+    "label": "Random Forest",
+    "type": "схема",
+    "objects": ["деревья решений", "голосование", "признаки"]
+  },
+  "knn_visualization.png": {
+    "label": "KNN: визуализация соседей",
+    "type": "визуализация",
+    "objects": ["точки данных", "соседи", "классы", "расстояния"]
+  },
+  "autoencoder_schema.png": {
+    "label": "Автоэнкодер",
+    "type": "схема",
+    "objects": ["энкодер", "латентное пространство", "декодер"]
+  },
+  "lstm_cell.png": {
+    "label": "LSTM: ячейка памяти",
+    "type": "схема",
+    "objects": ["input gate", "forget gate", "output gate", "cell state"]
+  }
+}

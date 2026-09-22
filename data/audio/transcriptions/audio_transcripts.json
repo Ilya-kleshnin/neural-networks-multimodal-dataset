@@ -1,0 +1,62 @@
+{
+  "lecture_ann.mp3": {
+    "duration": "03:45",
+    "language": "ru",
+    "transcription": "Искусственная нейронная сеть — математическая модель, построенная по принципу организации биологических нейронных сетей...",
+    "keywords": ["ANN", "перцептрон", "нейроны", "слои"]
+  },
+  "lecture_cnn.mp3": {
+    "duration": "03:20",
+    "language": "ru",
+    "transcription": "Свёрточная нейронная сеть применяется для анализа изображений...",
+    "keywords": ["CNN", "свёртка", "pooling", "изображения"]
+  },
+  "lecture_rnn.mp3": {
+    "duration": "03:10",
+    "language": "ru",
+    "transcription": "Рекуррентные нейронные сети обрабатывают последовательности...",
+    "keywords": ["RNN", "последовательности", "LSTM", "GRU"]
+  },
+  "lecture_transformer.mp3": {
+    "duration": "03:30",
+    "language": "ru",
+    "transcription": "Трансформер основан на механизме self-attention...",
+    "keywords": ["Transformer", "attention", "BERT", "GPT"]
+  },
+  "lecture_gan.mp3": {
+    "duration": "03:15",
+    "language": "ru",
+    "transcription": "GAN состоит из генератора и дискриминатора...",
+    "keywords": ["GAN", "генератор", "дискриминатор", "StyleGAN"]
+  },
+  "lecture_svm.mp3": {
+    "duration": "02:50",
+    "language": "ru",
+    "transcription": "Метод опорных векторов строит разделяющую гиперплоскость...",
+    "keywords": ["SVM", "гиперплоскость", "опорные векторы", "классификация"]
+  },
+  "lecture_random_forest.mp3": {
+    "duration": "02:40",
+    "language": "ru",
+    "transcription": "Случайный лес — ансамбль решающих деревьев...",
+    "keywords": ["Random Forest", "деревья", "голосование", "ансамбль"]
+  },
+  "lecture_knn.mp3": {
+    "duration": "02:20",
+    "language": "ru",
+    "transcription": "Метод k-ближайших соседей классифицирует объект по голосованию...",
+    "keywords": ["KNN", "соседи", "расстояние", "классификация"]
+  },
+  "lecture_autoencoder.mp3": {
+    "duration": "02:35",
+    "language": "ru",
+    "transcription": "Автоэнкодер сжимает данные в латентное пространство...",
+    "keywords": ["Autoencoder", "энкодер", "декодер", "латентное пространство"]
+  },
+  "lecture_lstm.mp3": {
+    "duration": "03:05",
+    "language": "ru",
+    "transcription": "LSTM — разновидность RNN, способная запоминать информацию...",
+    "keywords": ["LSTM", "вентили", "память", "RNN"]
+  }
+}

@@ -34,7 +34,7 @@ neural-networks-multimodal-dataset/
 ## Источники данных
 
 ### Текстовые данные
-- **Википедия** (русскоязычные статьи): [Искусственная нейронная сеть](https://ru.wikipedia.org/wiki/%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BD%D0%B5%D0%B9%D1%80%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%82%D1%8C), [Свёрточная нейронная сеть](https://ru.wikipedia.org/wiki/Свёрточная_нейронная_сеть), [Рекуррентная нейронная сеть](https://ru.wikipedia.org/wiki/Рекуррентная_нейронная_сеть) и др.
+- **Википедия** (русскоязычные статьи): [Искусственная нейронная сеть](https://ru.wikipedia.org/wiki/Искусственная_нейронная_сеть), [Свёрточная нейронная сеть](https://ru.wikipedia.org/wiki/Свёрточная_нейронная_сеть), [Рекуррентная нейронная сеть](https://ru.wikipedia.org/wiki/Рекуррентная_нейронная_сеть) и др.
 - **Habr**: статьи по машинному обучению.
 - **Научные публикации**: arXiv, КиберЛенинка.
 
@@ -61,3 +61,77 @@ neural-networks-multimodal-dataset/
 
 ```bash
 pip install -r code/requirements.txt
+```
+
+### Запуск кода
+
+```bash
+python code/collect_text.py
+python code/preprocess_text.py
+```
+
+## Примеры данных
+
+### Текст (`data/text/raw/wiki_cnn.txt`)
+
+```
+Свёрточная нейронная сеть (CNN) — класс глубоких нейронных сетей, 
+наиболее часто применяемых для анализа изображений. Архитектура CNN 
+включает свёрточные слои, слои подвыборки (pooling) и полносвязные слои.
+```
+
+### Изображение (`data/images/annotations/image_labels.json`)
+
+```json
+{
+  "cnn_architecture.png": {
+    "label": "Архитектура CNN",
+    "type": "схема",
+    "objects": ["свёрточный слой", "pooling", "полносвязный слой", "карты признаков"]
+  }
+}
+```
+
+### Аудио (`data/audio/transcriptions/audio_transcripts.json`)
+
+```json
+{
+  "lecture_cnn.mp3": {
+    "duration": "03:20",
+    "language": "ru",
+    "transcription": "Свёрточная нейронная сеть применяется для анализа изображений...",
+    "keywords": ["CNN", "свёртка", "pooling", "изображения"]
+  }
+}
+```
+
+## Сводная таблица объектов
+
+| № | Объект | Текст | Изображение | Аудио |
+|---|--------|-------|-------------|-------|
+| 1 | ANN (перцептрон) | `wiki_ann.txt` | `ann_architecture.png` | `lecture_ann.mp3` |
+| 2 | CNN | `wiki_cnn.txt` | `cnn_architecture.png` | `lecture_cnn.mp3` |
+| 3 | RNN | `wiki_rnn.txt` | `rnn_architecture.png` | `lecture_rnn.mp3` |
+| 4 | Transformer | `wiki_transformer.txt` | `transformer_architecture.png` | `lecture_transformer.mp3` |
+| 5 | GAN | `wiki_gan.txt` | `gan_architecture.png` | `lecture_gan.mp3` |
+| 6 | SVM | `wiki_svm.txt` | `svm_hyperplane.png` | `lecture_svm.mp3` |
+| 7 | Random Forest | `wiki_random_forest.txt` | `random_forest.png` | `lecture_random_forest.mp3` |
+| 8 | KNN | `wiki_knn.txt` | `knn_visualization.png` | `lecture_knn.mp3` |
+| 9 | Autoencoder | `wiki_autoencoder.txt` | `autoencoder_schema.png` | `lecture_autoencoder.mp3` |
+| 10 | LSTM | `wiki_lstm.txt` | `lstm_cell.png` | `lecture_lstm.mp3` |
+
+## Лицензия
+
+- **Код:** MIT License.
+- **Данные:** CC BY 4.0 (с указанием источников).
+
+## Контактная информация
+
+- **Автор:** Ilya Kleshnin
+- **GitHub:** [@ilya-kleshnin](https://github.com/ilya-kleshnin)
+
+## Презентация
+
+Ссылка на презентацию: [project_presentation.pdf](presentation/project_presentation.pdf)
+
+> ⚠️ Презентация будет добавлена после выполнения Шага 5.

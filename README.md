@@ -187,3 +187,44 @@ python code/preprocess_text.py
 | `ORGANIZATION` | Организация | Google |
 | `YEAR` | Год | 1989 |
 | `ABBREVIATION` | Аббревиатура | CNN, RNN, LSTM |
+
+## Разметка изображений (ЛР №5)
+
+Разметка выполнена в **CVAT** (Computer Vision Annotation Tool).
+Экспортирована в формате **COCO JSON**.
+
+### Файлы
+
+- `data/images/annotations/image_labels.json` — ручная разметка (базовая)
+- `data/images/annotations/cvat_annotations.json` — экспорт из CVAT
+
+### Классы объектов
+
+| Класс | Описание | Цвет |
+|-------|----------|------|
+| `LAYER` | Слой нейронной сети | 🔵 Синий |
+| `NEURON` | Отдельный нейрон | 🟢 Зелёный |
+| `CONNECTION` | Связь между нейронами | ⚪ Серый |
+| `ACTIVATION` | Функция активации | 🟠 Оранжевый |
+| `INPUT_OUTPUT` | Входные/выходные данные | 🔴 Красный |
+
+### Статистика разметки
+
+| № | Изображение | Объектов |
+|---|-------------|----------|
+| 1 | `ann_architecture.png` | 3 |
+| 2 | `autoencoder_schema.png` | 5 |
+| 3 | `cnn_architecture.png` | 6 |
+| 4 | `gan_architecture.png` | 5 |
+| 5 | `knn_visualization.png` | 12 |
+| 6 | `lstm_cell.png` | 10 |
+| 7 | `random_forest.png` | 4 |
+| 8 | `rnn_architecture.png` | 3 |
+| 9 | `svm_hyperplane.png` | 3 |
+| 10 | `transformer_architecture.png` | 5 |
+| **Итого** | | **56** |
+
+### Инструмент
+
+- **CVAT Cloud:** https://app.cvat.ai/
+- **Формат экспорта:** COCO 1.0

@@ -1,0 +1,30 @@
+# sent_id = 1
+# text = LSTM — разновидность рекуррентной нейронной сети.
+1   LSTM          LSTM          PROPN  _   _   0   root    _   NER=ABBREVIATION
+2   —             —             PUNCT  _   _   1   punct   _   _
+3   разновидность разновидность NOUN   _   _   1   appos   _   _
+4   рекуррентной  рекуррентный  ADJ    _   _   5   amod    _   NER=MODEL_NAME
+5   нейронной     нейронный     ADJ    _   _   6   amod    _   NER=MODEL_NAME
+6   сети          сеть          NOUN   _   _   3   nmod    _   NER=MODEL_NAME
+7   .             .             PUNCT  _   _   1   punct   _   _
+
+# sent_id = 2
+# text = Ячейка LSTM управляется тремя вентилями.
+1   Ячейка     ячейка     NOUN   _   _   2   nsubj   _   NER=TERM
+2   LSTM       LSTM       PROPN  _   _   0   root    _   NER=ABBREVIATION
+3   управляется управляться VERB  _   _   2   appos   _   _
+4   тремя      три        NUM    _   _   5   nummod  _   _
+5   вентилями  вентиль    NOUN   _   _   3   obl     _   NER=TERM
+6   .          .          PUNCT  _   _   2   punct   _   _
+
+# sent_id = 3
+# text = Input gate определяет, что добавить в память.
+1   Input      Input      PROPN  _   _   2   nsubj   _   NER=TERM
+2   gate       gate       NOUN   _   _   0   root    _   NER=TERM
+3   определяет определять VERB   _   _   2   appos   _   _
+4   ,          ,          PUNCT  _   _   5   punct   _   _
+5   что        что        PRON   _   _   6   obj     _   _
+6   добавить   добавить   VERB   _   _   3   ccomp   _   _
+7   в          в          ADP    _   _   8   case    _   _
+8   память     память     NOUN   _   _   6   obl     _   NER=TERM
+9   .          .          PUNCT  _   _   2   punct   _   _

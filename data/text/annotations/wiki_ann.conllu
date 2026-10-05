@@ -1,0 +1,44 @@
+# sent_id = 1
+# text = Искусственная нейронная сеть — математическая модель.
+1   Искусственная   искусственный   ADJ    _   _   2   amod    _   NER=MODEL_NAME
+2   нейронная       нейронный       ADJ    _   _   3   amod    _   NER=MODEL_NAME
+3   сеть            сеть            NOUN   _   _   0   root    _   NER=MODEL_NAME
+4   —               —               PUNCT  _   _   3   punct   _   _
+5   математическая  математический  ADJ    _   _   6   amod    _   _
+6   модель          модель          NOUN   _   _   3   appos   _   _
+
+# sent_id = 2
+# text = ИНС представляет собой систему соединённых простых процессоров.
+1   ИНС             ИНС             PROPN  _   _   2   nsubj   _   NER=ABBREVIATION
+2   представляет    представлять    VERB   _   _   0   root    _   _
+3   собой           себя            PRON   _   _   2   obl     _   _
+4   систему         система         NOUN   _   _   2   obj     _   _
+5   соединённых     соединённый     ADJ    _   _   6   amod    _   _
+6   простых         простой         ADJ    _   _   7   amod    _   _
+7   процессоров     процессор       NOUN   _   _   4   nmod    _   NER=TERM
+8   .               .               PUNCT  _   _   2   punct   _   _
+
+# sent_id = 3
+# text = Каждый нейрон получает сигналы и передаёт дальше.
+1   Каждый     каждый     DET    _   _   2   det     _   _
+2   нейрон     нейрон     NOUN   _   _   3   nsubj   _   NER=TERM
+3   получает   получать   VERB   _   _   0   root    _   _
+4   сигналы    сигнал     NOUN   _   _   3   obj     _   _
+5   и          и          CCONJ  _   _   6   cc      _   _
+6   передаёт   передавать VERB   _   _   3   conj    _   _
+7   дальше     дальше     ADV    _   _   6   advmod  _   _
+8   .          .          PUNCT  _   _   3   punct   _   _
+
+# sent_id = 4
+# text = Основные типы архитектур: перцептрон, свёрточные и рекуррентные сети.
+1   Основные        основной        ADJ    _   _   2   amod    _   _
+2   типы            тип             NOUN   _   _   0   root    _   NER=TERM
+3   архитектур      архитектура     NOUN   _   _   2   nmod    _   NER=TERM
+4   :               :               PUNCT  _   _   2   punct   _   _
+5   перцептрон      перцептрон      NOUN   _   _   2   appos   _   NER=MODEL_NAME
+6   ,               ,               PUNCT  _   _   5   punct   _   _
+7   свёрточные      свёрточный      ADJ    _   _   8   amod    _   NER=MODEL_NAME
+8   и               и               CCONJ  _   _   9   cc      _   _
+9   рекуррентные    рекуррентный    ADJ    _   _   10  amod    _   NER=MODEL_NAME
+10  сети            сеть            NOUN   _   _   5   conj    _   NER=MODEL_NAME
+11  .               .               PUNCT  _   _   2   punct   _   _

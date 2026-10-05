@@ -1,0 +1,32 @@
+# sent_id = 1
+# text = Рекуррентная нейронная сеть — класс нейронных сетей с обратной связью.
+1   Рекуррентная   рекуррентный   ADJ    _   _   2   amod    _   NER=MODEL_NAME
+2   нейронная      нейронный      ADJ    _   _   3   amod    _   NER=MODEL_NAME
+3   сеть           сеть           NOUN   _   _   0   root    _   NER=MODEL_NAME
+4   —              —              PUNCT  _   _   3   punct   _   _
+5   класс          класс          NOUN   _   _   3   appos   _   _
+6   нейронных      нейронный      ADJ    _   _   7   amod    _   NER=TERM
+7   сетей          сеть           NOUN   _   _   5   nmod    _   NER=TERM
+8   с              с              ADP    _   _   9   case    _   _
+9   обратной       обратный       ADJ    _   _   10  amod    _   _
+10  связью         связь          NOUN   _   _   5   nmod    _   NER=TERM
+11  .              .              PUNCT  _   _   3   punct   _   _
+
+# sent_id = 2
+# text = RNN эффективны для обработки последовательностей.
+1   RNN           RNN           PROPN  _   _   2   nsubj   _   NER=ABBREVIATION
+2   эффективны    эффективный   ADJ    _   _   0   root    _   _
+3   для           для           ADP    _   _   4   case    _   _
+4   обработки     обработка     NOUN   _   _   2   obl     _   _
+5   последовательностей  последовательность  NOUN  _  _  4  nmod  _  _
+6   .             .             PUNCT  _   _   2   punct   _   _
+
+# sent_id = 3
+# text = Основная проблема RNN — затухание градиента.
+1   Основная   основной   ADJ    _   _   2   amod    _   _
+2   проблема   проблема   NOUN   _   _   0   root    _   _
+3   RNN        RNN        PROPN  _   _   2   nmod    _   NER=ABBREVIATION
+4   —          —          PUNCT  _   _   2   punct   _   _
+5   затухание  затухание  NOUN   _   _   2   appos   _   NER=TERM
+6   градиента  градиент   NOUN   _   _   5   nmod    _   NER=TERM
+7   .          .          PUNCT  _   _   2   punct   _   _

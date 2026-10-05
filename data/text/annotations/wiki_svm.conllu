@@ -1,0 +1,31 @@
+# sent_id = 1
+# text = Метод опорных векторов — алгоритм машинного обучения.
+1   Метод          метод        NOUN   _   _   0   root    _   NER=MODEL_NAME
+2   опорных        опорный      ADJ    _   _   3   amod    _   NER=MODEL_NAME
+3   векторов       вектор       NOUN   _   _   1   nmod    _   NER=MODEL_NAME
+4   —              —            PUNCT  _   _   1   punct   _   _
+5   алгоритм       алгоритм     NOUN   _   _   1   appos   _   NER=TERM
+6   машинного      машинный     ADJ    _   _   7   amod    _   NER=TERM
+7   обучения       обучение     NOUN   _   _   5   nmod    _   NER=TERM
+8   .              .            PUNCT  _   _   1   punct   _   _
+
+# sent_id = 2
+# text = SVM строит разделяющую гиперплоскость.
+1   SVM            SVM            PROPN  _   _   2   nsubj   _   NER=ABBREVIATION
+2   строит         строить        VERB   _   _   0   root    _   _
+3   разделяющую    разделяющий    ADJ    _   _   4   amod    _   _
+4   гиперплоскость гиперплоскость NOUN   _   _   2   obj     _   NER=TERM
+5   .              .              PUNCT  _   _   2   punct   _   _
+
+# sent_id = 3
+# text = Опорные векторы — это точки, ближайшие к гиперплоскости.
+1   Опорные        опорный        ADJ    _   _   2   amod    _   NER=TERM
+2   векторы        вектор         NOUN   _   _   0   root    _   NER=TERM
+3   —              —              PUNCT  _   _   2   punct   _   _
+4   это            это            PRON   _   _   2   expl    _   _
+5   точки          точка          NOUN   _   _   2   appos   _   _
+6   ,              ,              PUNCT  _   _   7   punct   _   _
+7   ближайшие      ближайший      ADJ    _   _   5   acl     _   _
+8   к              к              ADP    _   _   9   case    _   _
+9   гиперплоскости гиперплоскость NOUN   _   _   7   obl     _   NER=TERM
+10  .              .              PUNCT  _   _   2   punct   _   _

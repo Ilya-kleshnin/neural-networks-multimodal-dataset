@@ -1,0 +1,32 @@
+# sent_id = 1
+# text = Свёрточная нейронная сеть — класс глубоких нейронных сетей.
+1   Свёрточная    свёрточный   ADJ    _   _   2   amod    _   NER=MODEL_NAME
+2   нейронная     нейронный    ADJ    _   _   3   amod    _   NER=MODEL_NAME
+3   сеть          сеть         NOUN   _   _   0   root    _   NER=MODEL_NAME
+4   —             —            PUNCT  _   _   3   punct   _   _
+5   класс         класс        NOUN   _   _   3   appos   _   _
+6   глубоких      глубокий     ADJ    _   _   7   amod    _   _
+7   нейронных     нейронный    ADJ    _   _   8   amod    _   NER=TERM
+8   сетей         сеть         NOUN   _   _   5   nmod    _   NER=TERM
+9   .             .            PUNCT  _   _   3   punct   _   _
+
+# sent_id = 2
+# text = Архитектура CNN включает свёрточные слои и слои подвыборки.
+1   Архитектура   архитектура   NOUN   _   _   2   nsubj   _   NER=TERM
+2   CNN           CNN           PROPN  _   _   0   root    _   NER=ABBREVIATION
+3   включает      включать      VERB   _   _   2   appos   _   _
+4   свёрточные    свёрточный    ADJ    _   _   5   amod    _   NER=TERM
+5   слои          слой          NOUN   _   _   3   obj     _   NER=TERM
+6   и             и             CCONJ  _   _   7   cc      _   _
+7   слои          слой          NOUN   _   _   5   conj    _   NER=TERM
+8   подвыборки    подвыборка    NOUN   _   _   7   nmod    _   NER=TERM
+9   .             .             PUNCT  _   _   2   punct   _   _
+
+# sent_id = 3
+# text = Свёрточные слои выполняют операцию свёртки.
+1   Свёрточные    свёрточный   ADJ    _   _   2   amod    _   NER=TERM
+2   слои          слой         NOUN   _   _   3   nsubj   _   NER=TERM
+3   выполняют     выполнять    VERB   _   _   0   root    _   _
+4   операцию      операция     NOUN   _   _   3   obj     _   _
+5   свёртки       свёртка      NOUN   _   _   4   nmod    _   NER=TERM
+6   .             .            PUNCT  _   _   3   punct   _   _

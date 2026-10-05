@@ -1,0 +1,30 @@
+# sent_id = 1
+# text = Автоэнкодер — нейронная сеть, восстанавливающая входные данные.
+1   Автоэнкодер     автоэнкодер     NOUN   _   _   0   root    _   NER=MODEL_NAME
+2   —               —               PUNCT  _   _   1   punct   _   _
+3   нейронная       нейронный       ADJ    _   _   4   amod    _   NER=TERM
+4   сеть            сеть            NOUN   _   _   1   appos   _   NER=TERM
+5   ,               ,               PUNCT  _   _   6   punct   _   _
+6   восстанавливающая восстанавливать VERB _  _   4   acl     _   _
+7   входные         входной         ADJ    _   _   8   amod    _   NER=TERM
+8   данные          данные          NOUN   _   _   6   obj     _   NER=TERM
+9   .               .               PUNCT  _   _   1   punct   _   _
+
+# sent_id = 2
+# text = Состоит из энкодера и декодера.
+1   Состоит     состоять    VERB   _   _   0   root    _   _
+2   из          из          ADP    _   _   3   case    _   _
+3   энкодера    энкодер     NOUN   _   _   1   obl     _   NER=TERM
+4   и           и           CCONJ  _   _   5   cc      _   _
+5   декодера    декодер     NOUN   _   _   3   conj    _   NER=TERM
+6   .           .           PUNCT  _   _   1   punct   _   _
+
+# sent_id = 3
+# text = Энкодер сжимает данные в латентное пространство.
+1   Энкодер     энкодер     NOUN   _   _   2   nsubj   _   NER=TERM
+2   сжимает     сжимать     VERB   _   _   0   root    _   _
+3   данные      данные      NOUN   _   _   2   obj     _   _
+4   в           в           ADP    _   _   5   case    _   _
+5   латентное   латентный   ADJ    _   _   6   amod    _   NER=TERM
+6   пространство пространство NOUN   _   _   2   obl     _   NER=TERM
+7   .           .           PUNCT  _   _   2   punct   _   _

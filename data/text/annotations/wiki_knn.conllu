@@ -1,0 +1,26 @@
+# sent_id = 1
+# text = Метод k-ближайших соседей — простой алгоритм классификации.
+1   Метод          метод          NOUN   _   _   0   root    _   NER=MODEL_NAME
+2   k-ближайших    k-ближайший    ADJ    _   _   3   amod    _   NER=MODEL_NAME
+3   соседей        сосед          NOUN   _   _   1   nmod    _   NER=MODEL_NAME
+4   —              —              PUNCT  _   _   1   punct   _   _
+5   простой        простой        ADJ    _   _   6   amod    _   _
+6   алгоритм       алгоритм       NOUN   _   _   1   appos   _   NER=TERM
+7   классификации  классификация  NOUN   _   _   6   nmod    _   NER=TERM
+8   .              .              PUNCT  _   _   1   punct   _   _
+
+# sent_id = 2
+# text = KNN не требует обучения.
+1   KNN         KNN         PROPN  _   _   2   nsubj   _   NER=ABBREVIATION
+2   не          не          PART   _   _   3   advmod  _   _
+3   требует     требовать   VERB   _   _   0   root    _   _
+4   обучения    обучение    NOUN   _   _   3   obj     _   NER=TERM
+5   .           .           PUNCT  _   _   3   punct   _   _
+
+# sent_id = 3
+# text = Класс определяется голосованием соседей.
+1   Класс        класс        NOUN   _   _   2   nsubj   _   _
+2   определяется определяться VERB   _   _   0   root    _   _
+3   голосованием голосование  NOUN   _   _   2   obl     _   NER=TERM
+4   соседей      сосед        NOUN   _   _   3   nmod    _   NER=TERM
+5   .            .            PUNCT  _   _   2   punct   _   _

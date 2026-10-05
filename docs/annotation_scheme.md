@@ -213,3 +213,9 @@ data/
     ├── raw/                # исходные аудио
     └── annotations/        # размеченное аудио (TextGrid)
 ```
+
+### Дополнительные NER-теги (по результатам ЛР №3)
+
+- `HYPERPARAMETER` — гиперпараметр (learning rate, batch size)
+- `METRIC` — метрика (accuracy, loss, F1)
+- `ARCHITECTURE_PART` — часть архитектуры (энкодер, декодер, слой)

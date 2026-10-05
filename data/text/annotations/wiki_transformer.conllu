@@ -1,0 +1,33 @@
+# sent_id = 1
+# text = Трансформер — архитектура нейронной сети, основанная на механизме внимания.
+1   Трансформер   трансформер   NOUN   _   _   0   root    _   NER=MODEL_NAME
+2   —             —             PUNCT  _   _   1   punct   _   _
+3   архитектура   архитектура   NOUN   _   _   1   appos   _   NER=TERM
+4   нейронной     нейронный     ADJ    _   _   5   amod    _   NER=TERM
+5   сети          сеть          NOUN   _   _   3   nmod    _   NER=TERM
+6   ,             ,             PUNCT  _   _   7   punct   _   _
+7   основанная    основать      VERB   _   _   3   acl     _   _
+8   на            на            ADP    _   _   9   case    _   _
+9   механизме    механизм      NOUN   _   _   7   obl     _   NER=TERM
+10  внимания      внимание      NOUN   _   _   9   nmod    _   NER=TERM
+11  .             .             PUNCT  _   _   1   punct   _   _
+
+# sent_id = 2
+# text = Трансформер обрабатывает последовательность параллельно.
+1   Трансформер      трансформер      NOUN   _   _   2   nsubj   _   NER=MODEL_NAME
+2   обрабатывает     обрабатывать     VERB   _   _   0   root    _   _
+3   последовательность  последовательность  NOUN  _  _  2  obj  _  _
+4   параллельно      параллельно      ADV    _   _   2   advmod  _   _
+5   .                .                PUNCT  _   _   2   punct   _   _
+
+# sent_id = 3
+# text = Трансформеры лежат в основе моделей BERT и GPT.
+1   Трансформеры   трансформер   NOUN   _   _   2   nsubj   _   NER=MODEL_NAME
+2   лежат          лежать        VERB   _   _   0   root    _   _
+3   в              в             ADP    _   _   4   case    _   _
+4   основе         основа        NOUN   _   _   2   obl     _   _
+5   моделей        модель        NOUN   _   _   4   nmod    _   _
+6   BERT           BERT          PROPN  _   _   5   appos   _   NER=MODEL_NAME
+7   и              и             CCONJ  _   _   8   cc      _   _
+8   GPT            GPT           PROPN  _   _   6   conj    _   NER=MODEL_NAME
+9   .              .             PUNCT  _   _   2   punct   _   _
